@@ -8,16 +8,16 @@ body {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	background: none;
-	color: white;
 }
 
 #phone
 {
-	width: 332px;
-	height: 678px;
-	position: absolute;
+	width: 100%;
+	max-width: 233px;
+	height: auto;
+	position: relative;
+	bottom: 0;
 	left: 41%;
-	top: 28%;
 }
 
 #store {
@@ -33,6 +33,11 @@ body {
 	color: black;
 }
 
+#desc {
+	margin: 50px;
+	color: white;
+}
+
 .smaller-buttons {
 	color: black;
 }
@@ -40,6 +45,10 @@ body {
 .navbar {
 	background-color: white;
 	color: black;
+}
+
+.navbar-toggle {
+	background-color: black;
 }
 
 .full {
